@@ -1,0 +1,14 @@
+language: rust
+rust:
+  - stable
+# deploy:
+#   provider: releases
+#   api_key: "GITHUB OAUTH TOKEN"
+#   file_glob: true
+#   file: target/**/*
+#   skip_cleanup: true
+#   on:
+#     tags: true
+addons:
+  artifacts: true
+  # TODO
